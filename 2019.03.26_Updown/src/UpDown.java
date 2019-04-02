@@ -17,7 +17,7 @@ public class UpDown {
                     System.out.println("틀렸습니다, 제가 고른 숫자는 더 작은 수 입니다."); 
                     count++; 
                }else if(rn == sn){ 
-                    System.out.println("축하합니다!!," + count + "번 만에 맞추셨습니다."); 
+                    System.out.println("정답입니다!!," + count + "번 만에 맞추셨습니다."); 
                     System.exit(0); // 정답을 맞추면 프로그램종료
                } 
           } 
